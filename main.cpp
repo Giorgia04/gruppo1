@@ -283,17 +283,18 @@ void es39() {
             posC = posC + 1;
         }
     }
-  
+
+        cout << "dispari:\n";
+    for (int i = 0; i < posDispari; i++) {
+        cout << dispari[i] << " ";
+    }
+    cout << endl;
     cout << "pari:\n";
     for (int i = 0; i < posPari; i++) {
         cout << pari[i] << " ";
     }
     cout << endl;
-    cout << "dispari:\n";
-    for (int i = 0; i < posDispari; i++) {
-        cout << dispari[i] << " ";
-    }
-    cout << endl;
+
     cout << endl;
     
     if ( posPari > posDispari ) {
